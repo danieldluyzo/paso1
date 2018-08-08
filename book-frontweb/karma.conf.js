@@ -2,6 +2,7 @@
 // https://karma-runner.github.io/1.0/config/configuration-file.html
 
 module.exports = function (config) {
+    PHANTOMJS_BIN = './node_modules/.bin/phantomjs';
     config.set({
         basePath: './node_modules/.bin/phantomjs',
         frameworks: ['jasmine', '@angular-devkit/build-angular'],
